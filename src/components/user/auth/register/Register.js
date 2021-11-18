@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../../reusable/Header";
+import Header from "../../../reusable/Header";
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Form from "react-bootstrap/Form";
-import illustration from "../assets/illustrator.svg";
-import "./Auth.css";
+import illustration from "../../../assets/illustrator.svg";
+import "./Register.css";
 import Button from "../../../reusable/Button";
 
 const Register = () => {
@@ -114,7 +114,7 @@ const Register = () => {
                 </div>
               </div>
 
-              <Button />
+              <Button id="Register-Button" value="CREATE YOUR ACCOUNT" />
             </div>
           </form>
         </div>
