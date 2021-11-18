@@ -1,0 +1,136 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.Header {
+  background-color: #ffffff;
+}
+
+.Laptop-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.Button-Header {
+  background: none;
+  border: none;
+  color: #404c60;
+  margin: 0 40px;
+}
+
+.Register-Header {
+  background-color: #264653;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  padding: 14px 30px;
+}
+
+/* Header2 */
+.Second {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.H1-Header {
+  border-left: 1px solid;
+  margin-left: 40px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2a9d8f;
+  opacity: 0.6;
+}
+
+.Bitmap {
+    border: 1px solid;
+    background-image: url(../assets/Bitmap.svg);
+    height: 579px;
+    background-repeat: no-repeat;
+}
+
+.Button {
+  border: none;
+  background: #f4a261;
+  border-radius: 2px;
+  color: #222222;
+  font-weight: 600;
+  padding: 15px 30px;
+  width: 100% ;
+}
+
+.Create-Account-Landing:hover {
+  background: #f4a261;
+}
+
+.Login-Flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+}
+
+/* modal */
+.SignUpSuccess-Main {
+  background: #f7f8fc;
+  height: 90vh;
+}
+
+.Modal {
+  text-align: center;
+  padding: 30px;
+}
+
+.Email-Icon {
+  width: 80px;
+height: 80px;
+align-self: center;
+}
+
+.H2-Modal {
+  margin-top: 50px;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+ padding-bottom: 30px;
+}
+
+/* password modal */
+
+.Password-Modal {
+  border: 1px solid;
+  padding: 30px;
+}
+
+.H2-Password-Modal {
+align-self: center;
+}
+
+.Password-Modal-Button {
+  border: 1px solid;
+  align-self: center;
+}
+
+.Left {
+  display: block;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.SignUpSuccess-Button {
+  margin-top: 30px;
+}
+
+
+
+
+
+
+

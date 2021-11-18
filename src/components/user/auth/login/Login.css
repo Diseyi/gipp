@@ -1,0 +1,10 @@
+.Login-Flex {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin:  auto;
+  }
+  
+  .Login-Fifty {
+      width: 50%;
+  }
